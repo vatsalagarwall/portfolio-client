@@ -136,7 +136,7 @@ function Main() {
             className="text-center"
             style={{ marginTop: "auto", marginBottom: "auto" }}
           >
-            {/* <p className="heading-next">Full Stack Web Developer</p> */}
+            <p className="heading-next">Full Stack Web Developer</p>
             <h1 className="heading">
               Hi, I'm <span style={{ color: "red" }}>Vatsal Agarwal</span>
             </h1>
