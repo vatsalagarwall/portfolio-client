@@ -11,7 +11,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://portfolio-server-fawn.vercel.app", {
+      .post("http://localhost:8080", {
         name,
         email,
         message,
