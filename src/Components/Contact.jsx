@@ -11,7 +11,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://portfolio-server-q68j.onrender.com", {
+      .post("https://portfolio-server-fawn.vercel.app", {
         name,
         email,
         message,
