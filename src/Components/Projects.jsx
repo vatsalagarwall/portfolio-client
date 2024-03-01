@@ -136,7 +136,7 @@ function Projects() {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {data.map((item, index) => (
             <div key={index} className="col">
-              <div className="card" style={{ width: "100%", height: "570px" }}>
+              <div className="card" style={{ width: "100%", height: "590px" }}>
                 <img
                   src={item.img}
                   className="card-img-top"
