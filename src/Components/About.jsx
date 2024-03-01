@@ -100,12 +100,21 @@ function About() {
   };
 
   return (
+    // <div
+    //   className="container-fluid text-white p-4"
+    //   style={{
+    //     backgroundColor: "black",
+    //     // marginLeft: "40px",
+    //     // marginRight: "40px",
+    //   }}
+    // >
     <div
       className="container-fluid text-white p-4"
       style={{
         backgroundColor: "black",
-        // marginLeft: "40px",
-        // marginRight: "40px",
+        marginLeft: "auto", // Add left margin
+        marginRight: "auto", // Add right margin
+        maxWidth: "1200px", // Optionally set a maximum width for the content
       }}
     >
       <div className="row" style={{ marginTop: "60px", marginBottom: "60px" }}>

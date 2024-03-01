@@ -95,7 +95,7 @@ function Main() {
         <div className="container d-flex flex-column align-items-center vh-100">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <button
+              {/* <button
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -110,8 +110,8 @@ function Main() {
                 }}
               >
                 <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              </button> */}
+              {/* <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ms-auto heading-next">
                   <Link className="nav-link active me-5 text-white" to="/about">
                     About
@@ -129,7 +129,7 @@ function Main() {
                     Let's Connect
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </nav>
           <div

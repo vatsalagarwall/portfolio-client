@@ -46,22 +46,23 @@ function Contact() {
   };
 
   return (
+    // <div
+    //   className="container-fluid text-white p-4"
+    //   style={{
+    //     backgroundColor: "black",
+    //     // height: "80vh",
+    //   }}
+    // >
     <div
       className="container-fluid text-white p-4"
       style={{
         backgroundColor: "black",
-        // height: "80vh",
+        marginLeft: "auto",
+        marginRight: "auto",
+        maxWidth: "1200px",
       }}
     >
-      <div
-        className="row mt-4"
-        style={{
-          paddingTop: "70px",
-          paddingBottom: "80px",
-          paddingRight: "40px",
-          paddingLeft: "40px",
-        }}
-      >
+      <div className="row mt-4">
         <div className="col-md-5 mb-4 mb-md-0">
           <h2 className="heading">Contact Me</h2>
 
