@@ -17,7 +17,7 @@ function Contact() {
       })
       .then((result) => {
         console.log(result);
-        toast.success("Data sent successfully", {
+        toast.success("Message sent successfully", {
           position: "top-right",
           autoClose: 1000,
           hideProgressBar: false,
