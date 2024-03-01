@@ -7,11 +7,9 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-}
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8080", {
       .post("https://portfolio-server-fawn.vercel.app", {
         name,
         email,
