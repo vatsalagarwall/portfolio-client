@@ -127,9 +127,9 @@ function Projects() {
         className="container-fluid text-white p-4"
         style={{
           backgroundColor: "black",
-          marginLeft: "auto", // Add left margin
-          marginRight: "auto", // Add right margin
-          maxWidth: "1200px", // Optionally set a maximum width for the content
+          marginLeft: "auto",
+          marginRight: "auto",
+          maxWidth: "1200px",
         }}
       >
         <h1 className="heading">My works</h1>
