@@ -136,17 +136,19 @@ function About() {
           <div style={{ marginRight: "40px", textAlign: "start" }}>
             <h2 className="heading">About Me</h2>
             <p className="text-wrap">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-              purus feugiat, molestie ipsum et, consectetur justo. Integer
-              tristique odio id elit tempus, vel malesuada est bibendum. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus
-              feugiat, molestie ipsum et, consectetur justo. Integer tristique
-              odio id elit tempus, vel malesuada est bibendum.
+              As a dedicated college student, I'm passionate about coding, with
+              a focus on software and web development. My academic journey has
+              allowed me to showcase my skills through various projects. Active
+              participation in clubs like the Apple Developers Group has honed
+              my web design abilities and expanded my web development knowledge.
+              My interest in technology has been a lifelong pursuit, motivating
+              me to excel in this ever-evolving field.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-              purus feugiat, molestie ipsum et, consectetur justo. Integer
-              tristique odio id elit tempus, vel malesuada est bibendum. Lorem
+              I'm confident in my abilities and eager to take on new challenges.
+              I'm a team player, committed to achieving common goals. I believe
+              I can make a significant contribution to any software development
+              or web development team.
             </p>
 
             {/* Navigation Tabs */}
