@@ -1,6 +1,6 @@
 export const data = [{
     "name": "ChitChat",
-    "img": "https://th.bing.com/th/id/OIG.Xw6bZA.toQclcEfMwnua?w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn",
+    "img": "https://asset.cloudinary.com/dofk7cu8i/f9abf715765329de03becca1d06b377e",
     "description": "Developed a real- time communication app, highlighting full-stack knowledge with innovative features for instant connectivity.Demonstrated proficiency in front - end and back - end development, applying user - centric design for a seamless user experience.",
     "link": "https://chitchat12.netlify.app/"
 }, {
