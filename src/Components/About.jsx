@@ -124,9 +124,10 @@ function About() {
             alt="About Image"
             className="img-fluid"
             style={{
-              width: "65%",
-              height: "80%",
-              marginLeft: "40px",
+              width: "60%",
+              height: "85%",
+              marginLeft: "70px",
+              marginRight: "70px",
             }}
           />
         </div>
