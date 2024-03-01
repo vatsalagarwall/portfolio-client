@@ -224,7 +224,11 @@ function Contact() {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
-                <div id="emailHelp" className="form-text">
+                <div
+                  id="emailHelp"
+                  className="form-text"
+                  style={{ color: "grey" }}
+                >
                   We'll never share your email with anyone else.
                 </div>
               </div>
