@@ -86,7 +86,7 @@ function Contact() {
               href="mailto:bindalvatsaljpr@gmail.com"
               style={{ color: "white", marginLeft: "10px" }}
             >
-              bindalvatsaljpr@gmail.com
+              vatsalagarwal103@gmail.com
             </a>
           </p>
           <p
