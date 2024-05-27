@@ -1,0 +1,28 @@
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.typewriter p {
+  font-family: "Poppins", sans-serif;
+  color: red;
+  display: inline-block;
+  border-right: 2px solid white;
+  white-space: normal;
+  overflow: visible;
+  animation: blink-caret 0.75s step-end infinite;
+  font-size: 60px;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
+}
