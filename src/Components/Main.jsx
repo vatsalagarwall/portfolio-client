@@ -41,40 +41,31 @@ function Main() {
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center w-100">
                   <li className="nav-item flex-grow-1 text-center">
-                    <button
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#home"
-                    >
-                      Home
-                    </button>
-                  </li>
-                  <li className="nav-item flex-grow-1 text-center">
-                    <button
+                    <a
                       className="nav-link active text-white"
                       aria-current="page"
                       href="#about"
                     >
                       About
-                    </button>
+                    </a>
                   </li>
                   <li className="nav-item flex-grow-1 text-center">
-                    <button
+                    <a
                       className="nav-link active text-white"
                       aria-current="page"
-                      href="#"
+                      href="#projects"
                     >
                       Projects
-                    </button>
+                    </a>
                   </li>
                   <li className="nav-item flex-grow-1 text-center">
-                    <button
+                    <a
                       className="nav-link active text-white"
                       aria-current="page"
-                      href="#"
+                      href="#contact"
                     >
                       Contact
-                    </button>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -113,9 +104,16 @@ function Main() {
           </div>
         </div>
       </div>
-      <About />
-      <Projects />
-      <Contact />
+
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
