@@ -34,13 +34,15 @@ function About() {
             <ul>
               <li>
                 Web Development Intern at{" "}
-                <Link
-                  to="https://eplanetsoft.com/"
-                  target="_blank"
-                  style={{ textDecoration: "none", color: "white" }}
-                >
-                  EPlanet Soft – EP SOFT Pvt. Ltd.
-                </Link>
+                <u>
+                  <Link
+                    to="https://eplanetsoft.com/"
+                    target="_blank"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    EPlanet Soft – EP SOFT Pvt. Ltd., Jaipur
+                  </Link>
+                </u>
                 <br />
                 <span style={{ fontSize: "smaller", color: "red" }}>
                   Sep 2023 – Dec 2023
@@ -118,7 +120,7 @@ function About() {
       }}
     >
       <div className="row" style={{ marginTop: "60px", marginBottom: "60px" }}>
-        <div className="col-md-6">
+        {/* <div className="col-md-6">
           <img
             src="https://res.cloudinary.com/dofk7cu8i/image/upload/v1705943351/WhatsApp_Image_2024-01-22_at_22.34.12_f160735d_mmzsbe.jpg"
             alt="About Image"
@@ -130,7 +132,7 @@ function About() {
               marginRight: "70px",
             }}
           />
-        </div>
+        </div> */}
 
         <div className="col-md-6">
           <div style={{ marginRight: "40px", textAlign: "start" }}>
