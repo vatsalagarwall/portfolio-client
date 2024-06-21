@@ -40,7 +40,7 @@ function About() {
                     target="_blank"
                     style={{ textDecoration: "none", color: "white" }}
                   >
-                    EPlanet Soft – EP SOFT Pvt. Ltd., Jaipur
+                    EPlanet Soft - EP SOFT Pvt. Ltd., Jaipur
                   </Link>
                 </u>
                 <br />
