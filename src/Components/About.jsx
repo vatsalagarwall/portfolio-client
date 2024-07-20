@@ -49,6 +49,13 @@ function About() {
                 </span>
               </li>
               <li>
+                Freelancer for Web Development
+                <br />
+                <span style={{ fontSize: "smaller", color: "red" }}>
+                  May 2024 – June 2024
+                </span>
+              </li>
+              <li>
                 Member of Technical Team in Apple Developers Group
                 <br />
                 <span style={{ fontSize: "smaller", color: "red" }}>
